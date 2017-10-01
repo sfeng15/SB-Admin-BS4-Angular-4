@@ -1,4 +1,4 @@
-$topnav-background-color: #222;
+$topnav-background-color: #FF9E6E;
 .topnav {
     border-radius: 0;
     background-color: $topnav-background-color;
@@ -10,11 +10,7 @@ $topnav-background-color: #222;
         cursor: pointer;
     }
     .top-right-nav{
-        .buy-now{
-            a{
-                color:#999;
-            }
-        }
+
         .dropdown-menu{
             top: 40px;
             right: -5px;
@@ -69,4 +65,16 @@ $topnav-background-color: #222;
 }
 .header .navbar {
     background: $topnav-background-color !important;
+    height: 80px;
+
+
+
 }
+
+.navbar-brand{
+
+    font-size: 30px ;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+
+}
+
